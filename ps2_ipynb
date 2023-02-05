@@ -1,0 +1,266 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNw6/Zq4FogFYvnpXQdJAq2",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ewattudo/vis1/blob/main/ps2_ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# PS2 Manipulating Data and Merging - Erick Watt-Udogu "
+      ],
+      "metadata": {
+        "id": "PDpLwK64jwOn"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Import: Code**\n",
+        "\n",
+        "This section includes import code. "
+      ],
+      "metadata": {
+        "id": "9eTB845YlVG8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dASOwigzjlSH",
+        "outputId": "0456239e-28cd-4361-b464-0768f1650118"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/\n",
+            "Collecting geopandas\n",
+            "  Downloading geopandas-0.12.2-py3-none-any.whl (1.1 MB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.1/1.1 MB\u001b[0m \u001b[31m8.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hCollecting fiona>=1.8\n",
+            "  Downloading Fiona-1.9.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.9 MB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m16.9/16.9 MB\u001b[0m \u001b[31m17.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hCollecting pyproj>=2.6.1.post1\n",
+            "  Downloading pyproj-3.4.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (7.8 MB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m7.8/7.8 MB\u001b[0m \u001b[31m39.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hRequirement already satisfied: shapely>=1.7 in /usr/local/lib/python3.8/dist-packages (from geopandas) (2.0.1)\n",
+            "Requirement already satisfied: packaging in /usr/local/lib/python3.8/dist-packages (from geopandas) (23.0)\n",
+            "Requirement already satisfied: pandas>=1.0.0 in /usr/local/lib/python3.8/dist-packages (from geopandas) (1.3.5)\n",
+            "Collecting click~=8.0\n",
+            "  Downloading click-8.1.3-py3-none-any.whl (96 kB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m96.6/96.6 KB\u001b[0m \u001b[31m3.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hCollecting munch>=2.3.2\n",
+            "  Downloading munch-2.5.0-py2.py3-none-any.whl (10 kB)\n",
+            "Collecting cligj>=0.5\n",
+            "  Downloading cligj-0.7.2-py3-none-any.whl (7.1 kB)\n",
+            "Collecting click-plugins>=1.0\n",
+            "  Downloading click_plugins-1.1.1-py2.py3-none-any.whl (7.5 kB)\n",
+            "Requirement already satisfied: certifi in /usr/local/lib/python3.8/dist-packages (from fiona>=1.8->geopandas) (2022.12.7)\n",
+            "Requirement already satisfied: attrs>=19.2.0 in /usr/local/lib/python3.8/dist-packages (from fiona>=1.8->geopandas) (22.2.0)\n",
+            "Requirement already satisfied: pytz>=2017.3 in /usr/local/lib/python3.8/dist-packages (from pandas>=1.0.0->geopandas) (2022.7.1)\n",
+            "Requirement already satisfied: python-dateutil>=2.7.3 in /usr/local/lib/python3.8/dist-packages (from pandas>=1.0.0->geopandas) (2.8.2)\n",
+            "Requirement already satisfied: numpy>=1.17.3 in /usr/local/lib/python3.8/dist-packages (from pandas>=1.0.0->geopandas) (1.21.6)\n",
+            "Requirement already satisfied: six in /usr/local/lib/python3.8/dist-packages (from munch>=2.3.2->fiona>=1.8->geopandas) (1.15.0)\n",
+            "Installing collected packages: pyproj, munch, click, cligj, click-plugins, fiona, geopandas\n",
+            "  Attempting uninstall: click\n",
+            "    Found existing installation: click 7.1.2\n",
+            "    Uninstalling click-7.1.2:\n",
+            "      Successfully uninstalled click-7.1.2\n",
+            "\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n",
+            "flask 1.1.4 requires click<8.0,>=5.1, but you have click 8.1.3 which is incompatible.\u001b[0m\u001b[31m\n",
+            "\u001b[0mSuccessfully installed click-8.1.3 click-plugins-1.1.1 cligj-0.7.2 fiona-1.9.0 geopandas-0.12.2 munch-2.5.0 pyproj-3.4.1\n"
+          ]
+        }
+      ],
+      "source": [
+        "import os, sys, re #basics\n",
+        "import zipfile, json, datetime, string   #string for annotating points in scatter \n",
+        "import numpy as np\n",
+        "from statistics import *\n",
+        "\n",
+        "import pylab as plt\n",
+        "import pandas as pd\n",
+        "import pandas_datareader as pdr\n",
+        "from pandas_datareader import wb\n",
+        "from pandas.io.formats.style import Styler\n",
+        "#s4 = Styler(df4, uuid_len=0, cell_ids=False)\n",
+        "\n",
+        "\n",
+        "import urllib  #weird, guess need to have os and pandas imported for this to work                                                  \n",
+        "                                                                          \n",
+        "import webbrowser                                                                      \n",
+        "import folium as f                                                                     \n",
+        "from folium.plugins import MarkerCluster, HeatMap                                      \n",
+        "\n",
+        "#! pip install geocoder #]later maybe\n",
+        "! pip install geopandas #this is how you install packages on colab\n",
+        "import geopandas as gpd                                                                                       \n",
+        "#from geopy.geocoders import Nominatim #later maybe\n",
+        "\n",
+        "import seaborn as sns\n",
+        "\n",
+        "#many tricks how to extend notebook functionality\n",
+        "#https://coderzcolumn.com/tutorials/python/list-of-useful-magic-commands-in-jupyter-notebook-lab\n",
+        "#will display all output not just last command\n",
+        "from IPython.core.interactiveshell import InteractiveShell\n",
+        "InteractiveShell.ast_node_interactivity = \"all\""
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Import: Data**\n",
+        "This section is code for importing data.\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "d5OXCk3rlwcQ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "urllib.request.urlretrieve(\"https://raw.githubusercontent.com/ewattudo/vis1/main/appdata.csv\", \"appdata.csv\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BXhz3-JcnPs6",
+        "outputId": "eac634b4-fd6c-4474-c2aa-8b32e5af52a5"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "('appdata.csv', <http.client.HTTPMessage at 0x7f78904879d0>)"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "os.getcwd() #pwd\n",
+        "os.listdir() #compare to clicking on the left the folder icon #dir"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "I8GjDjV_nak1",
+        "outputId": "b4e84fa1-85b2-48e6-96b1-f7aedb285430"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'/content'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 5
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['.config', 'appdata.csv', 'sample_data']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "dat=pd.read_csv('appdata.csv')"
+      ],
+      "metadata": {
+        "id": "RLMnOHLIndK9"
+      },
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "pd.read_html('https://www.corragroup.com/new-jersey-county-lookup.html')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_3gAMetemtVW",
+        "outputId": "0a345e3f-094c-4b7b-d35d-4fb1f2bfe511"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[                   City ZIP Code      County\n",
+              " 0                   A C    08401    ATLANTIC\n",
+              " 1              ABERDEEN    07747    MONMOUTH\n",
+              " 2               ABSECON    08201    ATLANTIC\n",
+              " 3       ABSECON HEIGHTS    08201    ATLANTIC\n",
+              " 4     ABSECON HIGHLANDS    08201    ATLANTIC\n",
+              " ...                 ...      ...         ...\n",
+              " 1250        WRIGHTSTOWN    08562  BURLINGTON\n",
+              " 1251            WYCKOFF    07481      BERGEN\n",
+              " 1252          YARDVILLE    08620      MERCER\n",
+              " 1253           ZAREPATH    08873    SOMERSET\n",
+              " 1254          ZAREPHATH    08890    SOMERSET\n",
+              " \n",
+              " [1255 rows x 3 columns]]"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    }
+  ]
+}
