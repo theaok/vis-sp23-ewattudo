@@ -1,0 +1,22 @@
+Geo_FIPS,Geo_NAME,Geo_QNAME,Geo_NATION,Geo_REGION,Geo_DIVISION,Geo_STATE,Geo_COUNTY,Geo_CS,Geo_PLACE,Geo_CD,Geo_SDE,Geo_SDS,Geo_SDU,Geo_PUMA,Geo_ANRC,Geo_AIAANAHHL,Geo_CSA,Geo_MSAMSA,Geo_PCOP,Geo_MD,Geo_CNECATA,Geo_NECATA,Geo_PC,Geo_ND,Geo_UA,SE_T013A001,SE_T013A002,SE_T013A003,SE_T013A004,SE_T013A005,SE_T013A006
+"34001","Atlantic County","Atlantic County, New Jersey","00",,,"34","001",,,,,,,,,,,,,,,,,,,183492,22710,160782,98751,51781,16728
+"34003","Bergen County","Bergen County, New Jersey","00",,,"34","003",,,,,,,,,,,,,,,,,,,661729,46763,614966,476385,344061,134616
+"34005","Burlington County","Burlington County, New Jersey","00",,,"34","005",,,,,,,,,,,,,,,,,,,316291,18706,297585,211255,125014,46074
+"34007","Camden County","Camden County, New Jersey","00",,,"34","007",,,,,,,,,,,,,,,,,,,351426,36288,315138,209769,118208,43563
+"34009","Cape May County","Cape May County, New Jersey","00",,,"34","009",,,,,,,,,,,,,,,,,,,69957,4530,65427,40996,22471,9707
+"34011","Cumberland County","Cumberland County, New Jersey","00",,,"34","011",,,,,,,,,,,,,,,,,,,102701,19296,83405,41956,16539,5882
+"34013","Essex County","Essex County, New Jersey","00",,,"34","013",,,,,,,,,,,,,,,,,,,540264,71245,469019,308105,193079,74740
+"34015","Gloucester County","Gloucester County, New Jersey","00",,,"34","015",,,,,,,,,,,,,,,,,,,202556,14199,188357,123488,68815,23789
+"34017","Hudson County","Hudson County, New Jersey","00",,,"34","017",,,,,,,,,,,,,,,,,,,483796,69044,414752,302481,218844,89379
+"34019","Hunterdon County","Hunterdon County, New Jersey","00",,,"34","019",,,,,,,,,,,,,,,,,,,90777,5199,85578,68148,49069,20054
+"34021","Mercer County","Mercer County, New Jersey","00",,,"34","021",,,,,,,,,,,,,,,,,,,248215,27887,220328,162422,110409,53328
+"34023","Middlesex County","Middlesex County, New Jersey","00",,,"34","023",,,,,,,,,,,,,,,,,,,569641,63377,506264,366609,249753,101780
+"34025","Monmouth County","Monmouth County, New Jersey","00",,,"34","025",,,,,,,,,,,,,,,,,,,439267,23044,416223,315752,211569,83849
+"34027","Morris County","Morris County, New Jersey","00",,,"34","027",,,,,,,,,,,,,,,,,,,347474,17933,329541,261822,196363,79141
+"34029","Ocean County","Ocean County, New Jersey","00",,,"34","029",,,,,,,,,,,,,,,,,,,416503,29426,387077,242955,134652,45603
+"34031","Passaic County","Passaic County, New Jersey","00",,,"34","031",,,,,,,,,,,,,,,,,,,334603,48992,285611,166732,97525,31821
+"34033","Salem County","Salem County, New Jersey","00",,,"34","033",,,,,,,,,,,,,,,,,,,44241,5440,38801,22228,8869,3568
+"34035","Somerset County","Somerset County, New Jersey","00",,,"34","035",,,,,,,,,,,,,,,,,,,230443,12770,217673,170485,128948,57048
+"34037","Sussex County","Sussex County, New Jersey","00",,,"34","037",,,,,,,,,,,,,,,,,,,101838,5731,96107,68841,38832,14456
+"34039","Union County","Union County, New Jersey","00",,,"34","039",,,,,,,,,,,,,,,,,,,379853,51989,327864,217666,141136,54164
+"34041","Warren County","Warren County, New Jersey","00",,,"34","041",,,,,,,,,,,,,,,,,,,76162,5050,71112,48443,25828,6694
