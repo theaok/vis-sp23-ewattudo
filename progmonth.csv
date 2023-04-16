@@ -1,0 +1,210 @@
+program,month,value
+Biology: Computational and Integrative,6/22,0
+Biology: Computational and Integrative,7/22,3
+Biology: Computational and Integrative,8/22,1
+Biology: Computational and Integrative,9/22,2
+Biology: Computational and Integrative,10/22,4
+Biology: Computational and Integrative,11/22,33
+Biology: Computational and Integrative,12/22,13
+Biology: Computational and Integrative,1/23,7
+Biology: Computational and Integrative,2/23,20
+Biology: Computational and Integrative,3/23,4
+Biology: Computational and Integrative,4/23,0
+Biology,6/22,0
+Biology,7/22,0
+Biology,8/22,1
+Biology,9/22,2
+Biology,10/22,2
+Biology,11/22,13
+Biology,12/22,10
+Biology,1/23,2
+Biology,2/23,4
+Biology,3/23,3
+Biology,4/23,2
+Business and Science,6/22,0
+Business and Science,7/22,1
+Business and Science,8/22,0
+Business and Science,9/22,0
+Business and Science,10/22,1
+Business and Science,11/22,1
+Business and Science,12/22,1
+Business and Science,1/23,2
+Business and Science,2/23,0
+Business and Science,3/23,0
+Business and Science,4/23,2
+Chemistry,6/22,0
+Chemistry,7/22,1
+Chemistry,8/22,0
+Chemistry,9/22,1
+Chemistry,10/22,2
+Chemistry,11/22,6
+Chemistry,12/22,13
+Chemistry,1/23,2
+Chemistry,2/23,1
+Chemistry,3/23,1
+Chemistry,4/23,0
+Childhood Studies,6/22,2
+Childhood Studies,7/22,1
+Childhood Studies,8/22,1
+Childhood Studies,9/22,0
+Childhood Studies,10/22,4
+Childhood Studies,11/22,2
+Childhood Studies,12/22,6
+Childhood Studies,1/23,16
+Childhood Studies,2/23,1
+Childhood Studies,3/23,2
+Childhood Studies,4/23,0
+Computer Science,6/22,0
+Computer Science,7/22,2
+Computer Science,8/22,1
+Computer Science,9/22,1
+Computer Science,10/22,6
+Computer Science,11/22,20
+Computer Science,12/22,28
+Computer Science,1/23,59
+Computer Science,2/23,29
+Computer Science,3/23,17
+Computer Science,4/23,6
+Creative Writing,6/22,0
+Creative Writing,7/22,0
+Creative Writing,8/22,0
+Creative Writing,9/22,4
+Creative Writing,10/22,6
+Creative Writing,11/22,9
+Creative Writing,12/22,22
+Creative Writing,1/23,74
+Creative Writing,2/23,0
+Creative Writing,3/23,0
+Creative Writing,4/23,0
+Criminal Justice,6/22,2
+Criminal Justice,7/22,0
+Criminal Justice,8/22,1
+Criminal Justice,9/22,1
+Criminal Justice,10/22,1
+Criminal Justice,11/22,6
+Criminal Justice,12/22,5
+Criminal Justice,1/23,2
+Criminal Justice,2/23,5
+Criminal Justice,3/23,5
+Criminal Justice,4/23,1
+Data Science ,6/22,0
+Data Science ,7/22,0
+Data Science ,8/22,0
+Data Science ,9/22,3
+Data Science ,10/22,7
+Data Science ,11/22,21
+Data Science ,12/22,59
+Data Science ,1/23,100
+Data Science ,2/23,52
+Data Science ,3/23,18
+Data Science ,4/23,6
+English,6/22,1
+English,7/22,1
+English,8/22,0
+English,9/22,0
+English,10/22,3
+English,11/22,7
+English,12/22,30
+English,1/23,12
+English,2/23,7
+English,3/23,1
+English,4/23,2
+Forensic Science,6/22,0
+Forensic Science,7/22,0
+Forensic Science,8/22,0
+Forensic Science,9/22,0
+Forensic Science,10/22,0
+Forensic Science,11/22,2
+Forensic Science,12/22,0
+Forensic Science,1/23,2
+Forensic Science,2/23,4
+Forensic Science,3/23,3
+Forensic Science,4/23,1
+History,6/22,0
+History,7/22,0
+History,8/22,0
+History,9/22,0
+History,10/22,0
+History,11/22,1
+History,12/22,17
+History,1/23,1
+History,2/23,1
+History,3/23,1
+History,4/23,2
+Liberal Studies,6/22,0
+Liberal Studies,7/22,1
+Liberal Studies,8/22,0
+Liberal Studies,9/22,0
+Liberal Studies,10/22,1
+Liberal Studies,11/22,1
+Liberal Studies,12/22,0
+Liberal Studies,1/23,1
+Liberal Studies,2/23,4
+Liberal Studies,3/23,1
+Liberal Studies,4/23,2
+Mathematical Sciences,6/22,0
+Mathematical Sciences,7/22,0
+Mathematical Sciences,8/22,0
+Mathematical Sciences,9/22,0
+Mathematical Sciences,10/22,1
+Mathematical Sciences,11/22,0
+Mathematical Sciences,12/22,0
+Mathematical Sciences,1/23,1
+Mathematical Sciences,2/23,4
+Mathematical Sciences,3/23,0
+Mathematical Sciences,4/23,1
+Prevention Science,6/22,0
+Prevention Science,7/22,0
+Prevention Science,8/22,1
+Prevention Science,9/22,1
+Prevention Science,10/22,3
+Prevention Science,11/22,32
+Prevention Science,12/22,12
+Prevention Science,1/23,2
+Prevention Science,2/23,5
+Prevention Science,3/23,0
+Prevention Science,4/23,0
+Psychology,6/22,0
+Psychology,7/22,1
+Psychology,8/22,1
+Psychology,9/22,1
+Psychology,10/22,8
+Psychology,11/22,57
+Psychology,12/22,14
+Psychology,1/23,8
+Psychology,2/23,16
+Psychology,3/23,15
+Psychology,4/23,3
+Public Administration,6/22,2
+Public Administration,7/22,0
+Public Administration,8/22,3
+Public Administration,9/22,0
+Public Administration,10/22,1
+Public Administration,11/22,4
+Public Administration,12/22,3
+Public Administration,1/23,5
+Public Administration,2/23,11
+Public Administration,3/23,2
+Public Administration,4/23,1
+Public Affairs,6/22,0
+Public Affairs,7/22,0
+Public Affairs,8/22,0
+Public Affairs,9/22,1
+Public Affairs,10/22,1
+Public Affairs,11/22,10
+Public Affairs,12/22,16
+Public Affairs,1/23,16
+Public Affairs,2/23,3
+Public Affairs,3/23,0
+Public Affairs,4/23,0
+Teacher Education,6/22,0
+Teacher Education,7/22,0
+Teacher Education,8/22,0
+Teacher Education,9/22,0
+Teacher Education,10/22,0
+Teacher Education,11/22,0
+Teacher Education,12/22,2
+Teacher Education,1/23,3
+Teacher Education,2/23,2
+Teacher Education,3/23,4
+Teacher Education,4/23,0
