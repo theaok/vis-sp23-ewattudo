@@ -1,0 +1,210 @@
+program,month,value
+Biology: Computational and Integrative,J-22,0
+Biology: Computational and Integrative,J-22,3
+Biology: Computational and Integrative,A-22,1
+Biology: Computational and Integrative,S-22,2
+Biology: Computational and Integrative,O-22,4
+Biology: Computational and Integrative,N-22,33
+Biology: Computational and Integrative,D-22,13
+Biology: Computational and Integrative,J-23,7
+Biology: Computational and Integrative,F-23,20
+Biology: Computational and Integrative,M-23,4
+Biology: Computational and Integrative,A-23,0
+Biology,J-22,0
+Biology,J-22,0
+Biology,A-22,1
+Biology,S-22,2
+Biology,O-22,2
+Biology,N-22,13
+Biology,D-22,10
+Biology,J-23,2
+Biology,F-23,4
+Biology,M-23,3
+Biology,A-23,2
+Business and Science,J-22,0
+Business and Science,J-22,1
+Business and Science,A-22,0
+Business and Science,S-22,0
+Business and Science,O-22,1
+Business and Science,N-22,1
+Business and Science,D-22,1
+Business and Science,J-23,2
+Business and Science,F-23,0
+Business and Science,M-23,0
+Business and Science,A-23,2
+Chemistry,J-22,0
+Chemistry,J-22,1
+Chemistry,A-22,0
+Chemistry,S-22,1
+Chemistry,O-22,2
+Chemistry,N-22,6
+Chemistry,D-22,13
+Chemistry,J-23,2
+Chemistry,F-23,1
+Chemistry,M-23,1
+Chemistry,A-23,0
+Childhood Studies,J-22,2
+Childhood Studies,J-22,1
+Childhood Studies,A-22,1
+Childhood Studies,S-22,0
+Childhood Studies,O-22,4
+Childhood Studies,N-22,2
+Childhood Studies,D-22,6
+Childhood Studies,J-23,16
+Childhood Studies,F-23,1
+Childhood Studies,M-23,2
+Childhood Studies,A-23,0
+Computer Science,J-22,0
+Computer Science,J-22,2
+Computer Science,A-22,1
+Computer Science,S-22,1
+Computer Science,O-22,6
+Computer Science,N-22,20
+Computer Science,D-22,28
+Computer Science,J-23,59
+Computer Science,F-23,29
+Computer Science,M-23,17
+Computer Science,A-23,6
+Creative Writing,J-22,0
+Creative Writing,J-22,0
+Creative Writing,A-22,0
+Creative Writing,S-22,4
+Creative Writing,O-22,6
+Creative Writing,N-22,9
+Creative Writing,D-22,22
+Creative Writing,J-23,74
+Creative Writing,F-23,0
+Creative Writing,M-23,0
+Creative Writing,A-23,0
+Criminal Justice,J-22,2
+Criminal Justice,J-22,0
+Criminal Justice,A-22,1
+Criminal Justice,S-22,1
+Criminal Justice,O-22,1
+Criminal Justice,N-22,6
+Criminal Justice,D-22,5
+Criminal Justice,J-23,2
+Criminal Justice,F-23,5
+Criminal Justice,M-23,5
+Criminal Justice,A-23,1
+Data Science ,J-22,0
+Data Science ,J-22,0
+Data Science ,A-22,0
+Data Science ,S-22,3
+Data Science ,O-22,7
+Data Science ,N-22,21
+Data Science ,D-22,59
+Data Science ,J-23,100
+Data Science ,F-23,52
+Data Science ,M-23,18
+Data Science ,A-23,6
+English,J-22,1
+English,J-22,1
+English,A-22,0
+English,S-22,0
+English,O-22,3
+English,N-22,7
+English,D-22,30
+English,J-23,12
+English,F-23,7
+English,M-23,1
+English,A-23,2
+Forensic Science,J-22,0
+Forensic Science,J-22,0
+Forensic Science,A-22,0
+Forensic Science,S-22,0
+Forensic Science,O-22,0
+Forensic Science,N-22,2
+Forensic Science,D-22,0
+Forensic Science,J-23,2
+Forensic Science,F-23,4
+Forensic Science,M-23,3
+Forensic Science,A-23,1
+History,J-22,0
+History,J-22,0
+History,A-22,0
+History,S-22,0
+History,O-22,0
+History,N-22,1
+History,D-22,17
+History,J-23,1
+History,F-23,1
+History,M-23,1
+History,A-23,2
+Liberal Studies,J-22,0
+Liberal Studies,J-22,1
+Liberal Studies,A-22,0
+Liberal Studies,S-22,0
+Liberal Studies,O-22,1
+Liberal Studies,N-22,1
+Liberal Studies,D-22,0
+Liberal Studies,J-23,1
+Liberal Studies,F-23,4
+Liberal Studies,M-23,1
+Liberal Studies,A-23,2
+Mathematical Sciences,J-22,0
+Mathematical Sciences,J-22,0
+Mathematical Sciences,A-22,0
+Mathematical Sciences,S-22,0
+Mathematical Sciences,O-22,1
+Mathematical Sciences,N-22,0
+Mathematical Sciences,D-22,0
+Mathematical Sciences,J-23,1
+Mathematical Sciences,F-23,4
+Mathematical Sciences,M-23,0
+Mathematical Sciences,A-23,1
+Prevention Science,J-22,0
+Prevention Science,J-22,0
+Prevention Science,A-22,1
+Prevention Science,S-22,1
+Prevention Science,O-22,3
+Prevention Science,N-22,32
+Prevention Science,D-22,12
+Prevention Science,J-23,2
+Prevention Science,F-23,5
+Prevention Science,M-23,0
+Prevention Science,A-23,0
+Psychology,J-22,0
+Psychology,J-22,1
+Psychology,A-22,1
+Psychology,S-22,1
+Psychology,O-22,8
+Psychology,N-22,57
+Psychology,D-22,14
+Psychology,J-23,8
+Psychology,F-23,16
+Psychology,M-23,15
+Psychology,A-23,3
+Public Administration,J-22,2
+Public Administration,J-22,0
+Public Administration,A-22,3
+Public Administration,S-22,0
+Public Administration,O-22,1
+Public Administration,N-22,4
+Public Administration,D-22,3
+Public Administration,J-23,5
+Public Administration,F-23,11
+Public Administration,M-23,2
+Public Administration,A-23,1
+Public Affairs,J-22,0
+Public Affairs,J-22,0
+Public Affairs,A-22,0
+Public Affairs,S-22,1
+Public Affairs,O-22,1
+Public Affairs,N-22,10
+Public Affairs,D-22,16
+Public Affairs,J-23,16
+Public Affairs,F-23,3
+Public Affairs,M-23,0
+Public Affairs,A-23,0
+Teacher Education,J-22,0
+Teacher Education,J-22,0
+Teacher Education,A-22,0
+Teacher Education,S-22,0
+Teacher Education,O-22,0
+Teacher Education,N-22,0
+Teacher Education,D-22,2
+Teacher Education,J-23,3
+Teacher Education,F-23,2
+Teacher Education,M-23,4
+Teacher Education,A-23,0
