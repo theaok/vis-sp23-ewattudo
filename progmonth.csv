@@ -1,0 +1,210 @@
+program,month,value
+Biology: Computational and Integrative,Jun-22,0
+Biology: Computational and Integrative,Jul-22,3
+Biology: Computational and Integrative,Aug-22,1
+Biology: Computational and Integrative,Sep-22,2
+Biology: Computational and Integrative,Oct-22,4
+Biology: Computational and Integrative,Nov-22,33
+Biology: Computational and Integrative,Dec-22,13
+Biology: Computational and Integrative,Jan-23,7
+Biology: Computational and Integrative,Feb-23,20
+Biology: Computational and Integrative,Mar-23,4
+Biology: Computational and Integrative,Apr-23,0
+Biology,Jun-22,0
+Biology,Jul-22,0
+Biology,Aug-22,1
+Biology,Sep-22,2
+Biology,Oct-22,2
+Biology,Nov-22,13
+Biology,Dec-22,10
+Biology,Jan-23,2
+Biology,Feb-23,4
+Biology,Mar-23,3
+Biology,Apr-23,2
+Business and Science,Jun-22,0
+Business and Science,Jul-22,1
+Business and Science,Aug-22,0
+Business and Science,Sep-22,0
+Business and Science,Oct-22,1
+Business and Science,Nov-22,1
+Business and Science,Dec-22,1
+Business and Science,Jan-23,2
+Business and Science,Feb-23,0
+Business and Science,Mar-23,0
+Business and Science,Apr-23,2
+Chemistry,Jun-22,0
+Chemistry,Jul-22,1
+Chemistry,Aug-22,0
+Chemistry,Sep-22,1
+Chemistry,Oct-22,2
+Chemistry,Nov-22,6
+Chemistry,Dec-22,13
+Chemistry,Jan-23,2
+Chemistry,Feb-23,1
+Chemistry,Mar-23,1
+Chemistry,Apr-23,0
+Childhood Studies,Jun-22,2
+Childhood Studies,Jul-22,1
+Childhood Studies,Aug-22,1
+Childhood Studies,Sep-22,0
+Childhood Studies,Oct-22,4
+Childhood Studies,Nov-22,2
+Childhood Studies,Dec-22,6
+Childhood Studies,Jan-23,16
+Childhood Studies,Feb-23,1
+Childhood Studies,Mar-23,2
+Childhood Studies,Apr-23,0
+Computer Science,Jun-22,0
+Computer Science,Jul-22,2
+Computer Science,Aug-22,1
+Computer Science,Sep-22,1
+Computer Science,Oct-22,6
+Computer Science,Nov-22,20
+Computer Science,Dec-22,28
+Computer Science,Jan-23,59
+Computer Science,Feb-23,29
+Computer Science,Mar-23,17
+Computer Science,Apr-23,6
+Creative Writing,Jun-22,0
+Creative Writing,Jul-22,0
+Creative Writing,Aug-22,0
+Creative Writing,Sep-22,4
+Creative Writing,Oct-22,6
+Creative Writing,Nov-22,9
+Creative Writing,Dec-22,22
+Creative Writing,Jan-23,74
+Creative Writing,Feb-23,0
+Creative Writing,Mar-23,0
+Creative Writing,Apr-23,0
+Criminal Justice,Jun-22,2
+Criminal Justice,Jul-22,0
+Criminal Justice,Aug-22,1
+Criminal Justice,Sep-22,1
+Criminal Justice,Oct-22,1
+Criminal Justice,Nov-22,6
+Criminal Justice,Dec-22,5
+Criminal Justice,Jan-23,2
+Criminal Justice,Feb-23,5
+Criminal Justice,Mar-23,5
+Criminal Justice,Apr-23,1
+Data Science ,Jun-22,0
+Data Science ,Jul-22,0
+Data Science ,Aug-22,0
+Data Science ,Sep-22,3
+Data Science ,Oct-22,7
+Data Science ,Nov-22,21
+Data Science ,Dec-22,59
+Data Science ,Jan-23,100
+Data Science ,Feb-23,52
+Data Science ,Mar-23,18
+Data Science ,Apr-23,6
+English,Jun-22,1
+English,Jul-22,1
+English,Aug-22,0
+English,Sep-22,0
+English,Oct-22,3
+English,Nov-22,7
+English,Dec-22,30
+English,Jan-23,12
+English,Feb-23,7
+English,Mar-23,1
+English,Apr-23,2
+Forensic Science,Jun-22,0
+Forensic Science,Jul-22,0
+Forensic Science,Aug-22,0
+Forensic Science,Sep-22,0
+Forensic Science,Oct-22,0
+Forensic Science,Nov-22,2
+Forensic Science,Dec-22,0
+Forensic Science,Jan-23,2
+Forensic Science,Feb-23,4
+Forensic Science,Mar-23,3
+Forensic Science,Apr-23,1
+History,Jun-22,0
+History,Jul-22,0
+History,Aug-22,0
+History,Sep-22,0
+History,Oct-22,0
+History,Nov-22,1
+History,Dec-22,17
+History,Jan-23,1
+History,Feb-23,1
+History,Mar-23,1
+History,Apr-23,2
+Liberal Studies,Jun-22,0
+Liberal Studies,Jul-22,1
+Liberal Studies,Aug-22,0
+Liberal Studies,Sep-22,0
+Liberal Studies,Oct-22,1
+Liberal Studies,Nov-22,1
+Liberal Studies,Dec-22,0
+Liberal Studies,Jan-23,1
+Liberal Studies,Feb-23,4
+Liberal Studies,Mar-23,1
+Liberal Studies,Apr-23,2
+Mathematical Sciences,Jun-22,0
+Mathematical Sciences,Jul-22,0
+Mathematical Sciences,Aug-22,0
+Mathematical Sciences,Sep-22,0
+Mathematical Sciences,Oct-22,1
+Mathematical Sciences,Nov-22,0
+Mathematical Sciences,Dec-22,0
+Mathematical Sciences,Jan-23,1
+Mathematical Sciences,Feb-23,4
+Mathematical Sciences,Mar-23,0
+Mathematical Sciences,Apr-23,1
+Prevention Science,Jun-22,0
+Prevention Science,Jul-22,0
+Prevention Science,Aug-22,1
+Prevention Science,Sep-22,1
+Prevention Science,Oct-22,3
+Prevention Science,Nov-22,32
+Prevention Science,Dec-22,12
+Prevention Science,Jan-23,2
+Prevention Science,Feb-23,5
+Prevention Science,Mar-23,0
+Prevention Science,Apr-23,0
+Psychology,Jun-22,0
+Psychology,Jul-22,1
+Psychology,Aug-22,1
+Psychology,Sep-22,1
+Psychology,Oct-22,8
+Psychology,Nov-22,57
+Psychology,Dec-22,14
+Psychology,Jan-23,8
+Psychology,Feb-23,16
+Psychology,Mar-23,15
+Psychology,Apr-23,3
+Public Administration,Jun-22,2
+Public Administration,Jul-22,0
+Public Administration,Aug-22,3
+Public Administration,Sep-22,0
+Public Administration,Oct-22,1
+Public Administration,Nov-22,4
+Public Administration,Dec-22,3
+Public Administration,Jan-23,5
+Public Administration,Feb-23,11
+Public Administration,Mar-23,2
+Public Administration,Apr-23,1
+Public Affairs,Jun-22,0
+Public Affairs,Jul-22,0
+Public Affairs,Aug-22,0
+Public Affairs,Sep-22,1
+Public Affairs,Oct-22,1
+Public Affairs,Nov-22,10
+Public Affairs,Dec-22,16
+Public Affairs,Jan-23,16
+Public Affairs,Feb-23,3
+Public Affairs,Mar-23,0
+Public Affairs,Apr-23,0
+Teacher Education,Jun-22,0
+Teacher Education,Jul-22,0
+Teacher Education,Aug-22,0
+Teacher Education,Sep-22,0
+Teacher Education,Oct-22,0
+Teacher Education,Nov-22,0
+Teacher Education,Dec-22,2
+Teacher Education,Jan-23,3
+Teacher Education,Feb-23,2
+Teacher Education,Mar-23,4
+Teacher Education,Apr-23,0
