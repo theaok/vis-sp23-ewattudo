@@ -1,0 +1,210 @@
+program,month,value
+Biology: Computational and Integrative,J,0
+Biology: Computational and Integrative,J,3
+Biology: Computational and Integrative,A,1
+Biology: Computational and Integrative,S,2
+Biology: Computational and Integrative,O,4
+Biology: Computational and Integrative,N,33
+Biology: Computational and Integrative,D,13
+Biology: Computational and Integrative,J,7
+Biology: Computational and Integrative,F,20
+Biology: Computational and Integrative,M,4
+Biology: Computational and Integrative,A,0
+Biology,J,0
+Biology,J,0
+Biology,A,1
+Biology,S,2
+Biology,O,2
+Biology,N,13
+Biology,D,10
+Biology,J,2
+Biology,F,4
+Biology,M,3
+Biology,A,2
+Business and Science,J,0
+Business and Science,J,1
+Business and Science,A,0
+Business and Science,S,0
+Business and Science,O,1
+Business and Science,N,1
+Business and Science,D,1
+Business and Science,J,2
+Business and Science,F,0
+Business and Science,M,0
+Business and Science,A,2
+Chemistry,J,0
+Chemistry,J,1
+Chemistry,A,0
+Chemistry,S,1
+Chemistry,O,2
+Chemistry,N,6
+Chemistry,D,13
+Chemistry,J,2
+Chemistry,F,1
+Chemistry,M,1
+Chemistry,A,0
+Childhood Studies,J,2
+Childhood Studies,J,1
+Childhood Studies,A,1
+Childhood Studies,S,0
+Childhood Studies,O,4
+Childhood Studies,N,2
+Childhood Studies,D,6
+Childhood Studies,J,16
+Childhood Studies,F,1
+Childhood Studies,M,2
+Childhood Studies,A,0
+Computer Science,J,0
+Computer Science,J,2
+Computer Science,A,1
+Computer Science,S,1
+Computer Science,O,6
+Computer Science,N,20
+Computer Science,D,28
+Computer Science,J,59
+Computer Science,F,29
+Computer Science,M,17
+Computer Science,A,6
+Creative Writing,J,0
+Creative Writing,J,0
+Creative Writing,A,0
+Creative Writing,S,4
+Creative Writing,O,6
+Creative Writing,N,9
+Creative Writing,D,22
+Creative Writing,J,74
+Creative Writing,F,0
+Creative Writing,M,0
+Creative Writing,A,0
+Criminal Justice,J,2
+Criminal Justice,J,0
+Criminal Justice,A,1
+Criminal Justice,S,1
+Criminal Justice,O,1
+Criminal Justice,N,6
+Criminal Justice,D,5
+Criminal Justice,J,2
+Criminal Justice,F,5
+Criminal Justice,M,5
+Criminal Justice,A,1
+Data Science ,J,0
+Data Science ,J,0
+Data Science ,A,0
+Data Science ,S,3
+Data Science ,O,7
+Data Science ,N,21
+Data Science ,D,59
+Data Science ,J,100
+Data Science ,F,52
+Data Science ,M,18
+Data Science ,A,6
+English,J,1
+English,J,1
+English,A,0
+English,S,0
+English,O,3
+English,N,7
+English,D,30
+English,J,12
+English,F,7
+English,M,1
+English,A,2
+Forensic Science,J,0
+Forensic Science,J,0
+Forensic Science,A,0
+Forensic Science,S,0
+Forensic Science,O,0
+Forensic Science,N,2
+Forensic Science,D,0
+Forensic Science,J,2
+Forensic Science,F,4
+Forensic Science,M,3
+Forensic Science,A,1
+History,J,0
+History,J,0
+History,A,0
+History,S,0
+History,O,0
+History,N,1
+History,D,17
+History,J,1
+History,F,1
+History,M,1
+History,A,2
+Liberal Studies,J,0
+Liberal Studies,J,1
+Liberal Studies,A,0
+Liberal Studies,S,0
+Liberal Studies,O,1
+Liberal Studies,N,1
+Liberal Studies,D,0
+Liberal Studies,J,1
+Liberal Studies,F,4
+Liberal Studies,M,1
+Liberal Studies,A,2
+Mathematical Sciences,J,0
+Mathematical Sciences,J,0
+Mathematical Sciences,A,0
+Mathematical Sciences,S,0
+Mathematical Sciences,O,1
+Mathematical Sciences,N,0
+Mathematical Sciences,D,0
+Mathematical Sciences,J,1
+Mathematical Sciences,F,4
+Mathematical Sciences,M,0
+Mathematical Sciences,A,1
+Prevention Science,J,0
+Prevention Science,J,0
+Prevention Science,A,1
+Prevention Science,S,1
+Prevention Science,O,3
+Prevention Science,N,32
+Prevention Science,D,12
+Prevention Science,J,2
+Prevention Science,F,5
+Prevention Science,M,0
+Prevention Science,A,0
+Psychology,J,0
+Psychology,J,1
+Psychology,A,1
+Psychology,S,1
+Psychology,O,8
+Psychology,N,57
+Psychology,D,14
+Psychology,J,8
+Psychology,F,16
+Psychology,M,15
+Psychology,A,3
+Public Administration,J,2
+Public Administration,J,0
+Public Administration,A,3
+Public Administration,S,0
+Public Administration,O,1
+Public Administration,N,4
+Public Administration,D,3
+Public Administration,J,5
+Public Administration,F,11
+Public Administration,M,2
+Public Administration,A,1
+Public Affairs,J,0
+Public Affairs,J,0
+Public Affairs,A,0
+Public Affairs,S,1
+Public Affairs,O,1
+Public Affairs,N,10
+Public Affairs,D,16
+Public Affairs,J,16
+Public Affairs,F,3
+Public Affairs,M,0
+Public Affairs,A,0
+Teacher Education,J,0
+Teacher Education,J,0
+Teacher Education,A,0
+Teacher Education,S,0
+Teacher Education,O,0
+Teacher Education,N,0
+Teacher Education,D,2
+Teacher Education,J,3
+Teacher Education,F,2
+Teacher Education,M,4
+Teacher Education,A,0
