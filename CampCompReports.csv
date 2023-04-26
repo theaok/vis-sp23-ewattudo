@@ -1,4 +1,4 @@
-Index,School,Count of Acs,Percent Change of ACs Over 2022,Change in Count of Acs Over 2022,Campus
+Index,School,Count of Acs,Percent Change of ACs Over 2022,Change in Count of Acs Over 2022,CLassification
 1,Public Affairs & Administration,28,154.5,17,Newark
 2,Business,311,14.8,40,Newark
 3,Law,94,-52.5,-104,Newark
@@ -18,3 +18,5 @@ Index,School,Count of Acs,Percent Change of ACs Over 2022,Change in Count of Acs
 17,School of Management &Labor Relations,35,105.9,18,New Brunswick
 18,Nursing,61,6100,61,New Brunswick
 19,Public Health,0,0,0,New Brunswick
+20,Graduate Century Program Max,279,121.4,153,What-if
+21,Graduate New Programs Only,95,9500,95,What-if
