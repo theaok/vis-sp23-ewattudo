@@ -1,10 +1,10 @@
 ﻿Index,Category,Count of ACs,Percent Change of ACs Over 2022,Change in Count of ACs Over 2022,Classification
-1,First Year ,451,31.9,109,Undergrad
-2,Transfer,322,21.1,56,Undergrad
-3,Law,63,-44.7,-51,Grad
-4,Business,53,120.8,29,Grad
-5,Graduate School,267,111.9,141,Grad
-6,Nursing,15,0,0,Grad
-7,Graduate sans New Programs,173,37.3,47,What-if
-9,Graduate Century Program Max,279,121.4,153,What-if
-10,Graduate New Programs Only,95,9500,95,What-if
+1,First Year ,623,20.5,106,Undergrad
+2,Transfer,378,8.3,29,Undergrad
+3,Law,133,0,0,Grad
+4,Business,56,55.6,20,Grad
+5,Graduate School,292,104.2,149,Grad
+6,Nursing,22,29.4,5,Grad
+7,Graduate sans New Programs,200,39.9,57,What-if
+9,Graduate Programs with 100 AC 30,308,115.3,165,What-if
+10,Graduate New Programs Only,107,10700,107,What-if
